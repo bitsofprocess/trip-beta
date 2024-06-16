@@ -1,12 +1,12 @@
 import { MantineProvider } from '@mantine/core';
 
 import '@mantine/core/styles.css';
-import AccomInfo from '@/pages/AccomInfo';
+import Fetch from '@/pages/Fetch';
 
 function App() {
   return (
     <MantineProvider>
-      <AccomInfo />
+      <Fetch />
     </MantineProvider>
   );
 }

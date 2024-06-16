@@ -25,7 +25,7 @@ export type Accommodations = {
   // Add other properties as needed
 };
 
-function AccomInfo() {
+function Fetch() {
   const [countries, setCountries] = useState<Country[] | null>([]);
   const [accommodations, setAccommodations] = useState<Accommodations[] | null>(
     [],
@@ -87,4 +87,4 @@ function AccomInfo() {
   );
 }
 
-export default AccomInfo;
+export default Fetch;
